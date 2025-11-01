@@ -27,11 +27,56 @@ int main() {
     float area2;
     float PIB2;
     
-    // Cadastro das Cartas:
+    // Cadastro das Cartas 1 e 2:
     // Implemente a lógica para solicitar ao usuário que insira os dados das cidades
     // utilizando a função scanf para capturar as entradas.
     // utilize o código do primeiro desafio
+    printf("Carta 1\n"); 
 
+    printf("Digite o estado (A-H) \n");
+    scanf(" %c", &estado1);
+
+    printf("Digite o código da carta \n");
+    scanf("%s", codigo1);
+
+    printf("Digite o nome da cidade \n");
+    scanf(" %[^\n]", nomedacidade1);
+
+    printf("Digite o número da população \n");
+    scanf("%d", &populacao1);
+
+    printf("Digite o número de pontos turísticos \n");
+    scanf("%d", &pontosturisticos1);
+
+    printf("Digite a área da cidade \n");
+    scanf("%f", &area1);
+
+    printf("Digite o PIB \n");
+    scanf("%f", &PIB1);
+
+
+    printf("Carta 2\n");
+
+    printf("Digite o estado (A-H) \n");
+    scanf(" %c", &estado2);
+
+    printf("Digite o código da carta \n");
+    scanf("%s", codigo2);
+
+    printf("Digite o nome da cidade \n");
+    scanf(" %[^\n]", nomedacidade2);
+
+    printf("Digite o número da população \n");
+    scanf("%d", &populacao2);
+
+    printf("Digite o número de pontos turísticos \n");
+    scanf("%d", &pontosturisticos2);
+
+    printf("Digite a área da cidade \n");
+    scanf("%f", &area2);
+
+    printf("Digite o PIB \n");
+    scanf("%f", &PIB2);
     // Exemplo:
     // printf("Digite o código da cidade: ");
     // scanf("%s", codigo);
@@ -48,6 +93,12 @@ int main() {
     // } else {
     //     printf("Cidade 2 tem maior população.\n");
     // }
+
+
+
+
+
+
 
     // Exibição dos Resultados:
     // Após realizar as comparações, exiba os resultados para o usuário.
