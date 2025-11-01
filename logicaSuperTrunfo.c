@@ -100,6 +100,7 @@ int main() {
     // Exibição dos Resultados:
     // Após realizar as comparações, exiba os resultados para o usuário.
     // Certifique-se de que o sistema mostre claramente qual carta venceu e com base em qual atributo.
+    printf("A cidade é vencedora é: %s\n", nomedacidade1, nomedacidade2);
 
     // Exemplo:
     // printf("A cidade vencedora é: %s\n", cidadeVencedora);
