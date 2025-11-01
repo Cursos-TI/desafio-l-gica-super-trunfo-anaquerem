@@ -13,7 +13,7 @@ int main() {
     char nomedacidade1[50];
     int populacao1;
     int pontosturisticos1;
-    float area1 = 1654.11;
+    float area1;
     float PIB1;
 
     // Variávies da carta 2
@@ -23,7 +23,7 @@ int main() {
     char nomedacidade2[50];
     int populacao2;
     int pontosturisticos2;
-    float area2 = 3156.23;
+    float area2;
     float PIB2;
     
     // Cadastro das Cartas 1 e 2:
