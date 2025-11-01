@@ -13,7 +13,7 @@ int main() {
     char nomedacidade1[50];
     int populacao1;
     int pontosturisticos1;
-    float area1;
+    float area1 = 1654.11;
     float PIB1;
 
     // Variávies da carta 2
@@ -23,7 +23,7 @@ int main() {
     char nomedacidade2[50];
     int populacao2;
     int pontosturisticos2;
-    float area2;
+    float area2 = 3156.23;
     float PIB2;
     
     // Cadastro das Cartas 1 e 2:
@@ -76,45 +76,21 @@ int main() {
 
     printf("Digite o PIB \n");
     scanf("%f", &PIB2);
-
-    //Exibiçao dos dados das cartas 1 e 2:
-
-      printf("estado: %c[^\n] \n", estado1);
-    printf("código da carta: %s \n", codigo1);
-    printf("nome da cidade: %s \n", nomedacidade1);
-    printf("número da população %d \n", populacao1);
-    printf("número de pontos turísticos: %d \n", pontosturisticos1);
-    printf("área da cidade em km²: %f \n", area1);
-    printf("PIB: %f \n", PIB1);
-
-     printf("estado: %c[^\n] \n", estado2);
-    printf("código da carta: %s \n", codigo2);
-    printf("nome da cidade: %s \n", nomedacidade2);
-    printf("número da população %d \n", populacao2);
-    printf("número de pontos turísticos: %d \n", pontosturisticos2);
-    printf("área da cidade em km²: %f \n", area2);
-    printf("PIB: %f \n", PIB2);
    
 
     // Comparação de Cartas (Área)
     // Desenvolva a lógica de comparação entre duas cartas.
     // Utilize estruturas de decisão como if, if-else para comparar atributos como população, área, PIB, etc.
     if (area1 > area2) {
-        printf("A cidade 1 tem maior área \n");
+        printf("A cidade 1 (%f) tem maior área \n");
     } else {
-        printf("A cidade 2 tem maior área \n");
+        printf("A cidade 2 (%f) tem maior área \n");
     }
-    // Exemplo:
-    // if (populacaoA > populacaoB) {
-    //     printf("Cidade 1 tem maior população.\n");
-    // } else {
-    //     printf("Cidade 2 tem maior população.\n");
-    // }
 
     // Exibição dos Resultados:
     // Após realizar as comparações, exiba os resultados para o usuário.
     // Certifique-se de que o sistema mostre claramente qual carta venceu e com base em qual atributo.
-    printf("A cidade %s é a vencedora!\n", );
+    printf("A cidade %s é a vencedora e %s perdeu! \n", nomedacidade1, nomedacidade2);
 
     return 0;
         
