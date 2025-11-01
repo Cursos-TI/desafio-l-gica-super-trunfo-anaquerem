@@ -77,14 +77,14 @@ int main() {
     printf("Digite o PIB \n");
     scanf("%f", &PIB2);
    
-
     // Comparação de Cartas (Área)
     // Desenvolva a lógica de comparação entre duas cartas.
     // Utilize estruturas de decisão como if, if-else para comparar atributos como população, área, PIB, etc.
+    printf("Comparando as áreas da cidade 1 e 2 \n");
     if (area1 > area2) {
-        printf("A cidade 1 (%f) tem maior área \n");
+        printf("A cidade 1 tem maior área \n");
     } else {
-        printf("A cidade 2 (%f) tem maior área \n");
+        printf("A cidade 2 tem maior área \n");
     }
 
     // Exibição dos Resultados:
