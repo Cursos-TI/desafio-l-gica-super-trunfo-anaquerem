@@ -2,7 +2,6 @@
 
 // Desafio Super Trunfo - Países
 // Tema 2 - Comparação das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de comparação de cartas de cidades. 
 // Siga os comentários para implementar cada parte do desafio.
 
 int main() {
@@ -77,12 +76,27 @@ int main() {
 
     printf("Digite o PIB \n");
     scanf("%f", &PIB2);
-    // Exemplo:
-    // printf("Digite o código da cidade: ");
-    // scanf("%s", codigo);
+
+    //Exibiçao dos dados das cartas 1 e 2:
+
+      printf("estado: %c[^\n] \n", estado1);
+    printf("código da carta: %s \n", codigo1);
+    printf("nome da cidade: %s \n", nomedacidade1);
+    printf("número da população %d \n", populacao1);
+    printf("número de pontos turísticos: %d \n", pontosturisticos1);
+    printf("área da cidade em km²: %f \n", area1);
+    printf("PIB: %f \n", PIB1);
+
+     printf("estado: %c[^\n] \n", estado2);
+    printf("código da carta: %s \n", codigo2);
+    printf("nome da cidade: %s \n", nomedacidade2);
+    printf("número da população %d \n", populacao2);
+    printf("número de pontos turísticos: %d \n", pontosturisticos2);
+    printf("área da cidade em km²: %f \n", area2);
+    printf("PIB: %f \n", PIB2);
    
 
-    // Comparação de Cartas:
+    // Comparação de Cartas (Área)
     // Desenvolva a lógica de comparação entre duas cartas.
     // Utilize estruturas de decisão como if, if-else para comparar atributos como população, área, PIB, etc.
     if (area1 < area2) {
@@ -104,6 +118,5 @@ int main() {
 
     // Exemplo:
     // printf("A cidade vencedora é: %s\n", cidadeVencedora);
-
     return 0;
 }
